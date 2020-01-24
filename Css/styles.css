@@ -1,0 +1,172 @@
+.body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+#title {
+  background-color: #fd5e53;
+  margin-top: auto;
+  text-align: left;
+}
+
+.title-text {
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 2;
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* FEATURES */
+
+.feature-icons {
+  font-size: 3rem;
+  color: #fd5e53;
+  text-align: center;
+  padding-bottom: 5%;
+
+}
+.feature-icons:hover {
+  color: purple;
+}
+
+/* .features-h3 {
+  /* font-size: 24; */
+  /* width: 200px; */
+
+.features-p {
+  padding-left: 40px;
+  padding-right: 40px;
+  /* width: 200px; */
+}
+
+.fb {
+  padding: 5%;
+}
+
+/* Testimonial section */
+
+.testimonial-container {
+  background-color: #fd5e53;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  width: 10%;
+}
+
+/* .testimonial-message {
+
+} */
+
+#press {
+  background-color: #fd5e53;
+  padding: 2%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+#cta {
+  background-color: #fd5e53;
+  color: #fff;
+}
+.cta-text {
+
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+font-size: 2rem;
+padding-bottom: 3%;
+}
+
+.fab{
+  padding: 1%;
+}
+
+.fas{
+  padding: 1%;
+}
+
+.iphone-img {
+  transform: rotate(20deg);
+  width: 60%;
+  max-width: 100%;
+  position: absolute;
+
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 990px) {
+
+  .iphone-img {
+    transform: rotate(0);
+    position: static;
+    width: 40%;
+  }
+
+  .title-text {
+    text-align: center;
+  }
+
+}
+
+.btn {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.pricing {
+  padding: 100px;
+}
+
+.pricing-card {
+  padding: 2%;
+}
